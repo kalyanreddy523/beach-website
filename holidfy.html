@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        .dropdown-item:hover{
+            background-color:burlywood;
+        }
+        #carouselExampleCaptions{
+          background-color: black;
+        }
+        .footer{
+          background-color: black;
+        }
+        .card1{
+          background-color: black;
+        }
+        .card2{
+          margin-top: 7px;
+        }
+        .text{
+          color: whitesmoke;
+          font-size: 12px;
+        }
+        .image{
+          margin-top: 14px;
+          margin-left: 55px;
+        }
+    </style>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:whitesmoke;">
+          <a class="navbar-brand" href="holidfy.html"><img src="images/Background.png" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search for resorts" aria-label="Search">
+               <button class="btn btn-light"><img src="images/search.png" class="img-fluid"></button>
+              </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ms-4 text-dark" aria-current="page" href="andhrabeaches.html">Andhra pradesh</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-5 text-dark" href="karnatakabeaches.html">karnataka</a>
+              </li>
+              <li class="nav-item dropdown active ms-5">
+                <a class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
+                  search by state
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="andhrabeaches.html">Andhra Pradesh</a></li>
+                  <li><a class="dropdown-item" href="karnatakabeaches.html">Karnataka</a></li>
+                  <li><a class="dropdown-item" href="keralabeaches.html">Kerala</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="maharashtrabeaches.html">Maharashtra</a></li>
+                  <li><a class="dropdown-item" href="tamilnadubeaches.html" >Tamilnadu</a></li>
+                  <li><a class="dropdown-item" href="andaman&nicobarbeach.html" >Andaman & Nicobar</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link active text-dark" href="maps.html">Map</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link active text-dark" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link active text-dark" href="contactus.html">
+                    Log In
+                  </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      <!--nav bar-->
+      <div id="carouselbuttons" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselbuttons" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselbuttons" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselbuttons" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselbuttons" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/goa 1.jpg" class="d-block w-100 img-fluid" style="margin:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-center"><u>BAGA BEACH</u></h5>
+              <p class="text-center">The First awesome spot of GOA state </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/goa 2.jpg" class="d-block w-100" style="margin:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><u>AGANDA BEACH</u></h5>
+              <p>The Second Awesome Spot of GOA</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/goa 3.jpg" class="d-block w-100" style="margin:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><u>CANDOLIM BEACH</u></h5>
+              <p>The Third Awesome Spot of GOA</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/goa 4.jpg" class="d-block w-100" style="margin:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><u>COLVA BEACH</u></h5>
+              <p>The Fourth Awesome Spot of GOA</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselbuttons" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselbuttons" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--CAROUSEL-->
+      <h2 class="text-black text-center mt-3"><u>BEACHES IN GOA</u></h2>
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/aganda beach.jpg" class="card-img-top" data-bs-toggle="collapse" data-bs-target="#para" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-black text-center">AGANDA BEACH</h5>
+                <p class="card-text collapse text-black" id="para">Agonda is a large village located in Canacona in South Goa district, India. Agonda is famous for its beach and It is one of the only four beaches designated as turtle nesting sites under the Coastal Regulation Zone 2011 notification.
+                  Agonda Beach is a 3 km long public beach located in Agonda village in Goa, India, about 9.2 kilometres (5.7 mi) north of Palolem Beach in South Goa district, and about an hour from Margao. There is one more beach on the north side of Agonda cliff called Cola beach which has an adjoining lagoon.
+                 During the month of September, the beach serves as a nesting ground for olive ridley sea turtles.
+                  In 2016 it was ranked on TripAdvisor's "Travelers Choice" as fourth in Asia by Tripadvisor 2016 and first in India.</p>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15412.447682225375!2d73.97634911716999!3d15.04192455493528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbe4fa05ae3392b%3A0x84a381728853986f!2sAgonda%20Beach!5e0!3m2!1sen!2sin!4v1673502178959!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px 1px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/baga beach.jpg" class="card-img-top" data-bs-toggle="collapse" data-bs-target="#para1" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-center text-black">BAGA BEACH</h5>
+                <p class="card-text collapse text-black" id="para1">Baga a seaside town in Bardez, Goa, India. It comes under the jurisdiction of Calangute, which is 2 km south. Baga is known for its popular beach and Baga Creek. It is visited by thousands of tourists annually.
+                  Baga Beach is a popular beach and tourist destination in North Goa. Baga is located at the north end of the contiguous beach stretch that starts from Sinquerim, Candolim, leads to Calangute, and then to Baga.
+                  Dolphins can be located at around 1 to 2 km from the shoreline
+                  Parasailing in Baga Beach.The beach contains rows of shacks and fishing boats, and at high tide the beach is narrow.
+                  The beach is named after the Baga Creek, which empties into the Arabian Sea at the north end of the beach.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7687.305739273996!2d73.7463911717646!3d15.556728842617352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfea1cd8a1deff%3A0xba7066c0ee35c1e0!2sBaga%20Beach!5e0!3m2!1sen!2sin!4v1673502313797!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px 1px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row mt-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card" >
+              <img src="images/candolim beach.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-black text-center">CANDOLIM BEACH</h5>
+                <p class="card-text text-black">
+                  Candolim is a census town in North Goa and is located in the Bardez taluka in the state of Goa, India. It is situated just south of Calangute Beach and North of Sinquerim.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.369022469036!2d73.76303271416307!3d15.518335858088626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc193f5f837bb%3A0x75b2929e91152780!2sCandolim%20Beach%20Rd%2C%20Candolim%2C%20Goa%20403515!5e0!3m2!1sen!2sin!4v1673502354585!5m2!1sen!2sin" width="500" class="img-fluid" height="450" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/colva beach.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-center text-black">COLVA BEACH</h5>
+                <p class="card-text text-black">Colva is a seaside village situated in Salcete subdistrict, South Goa district, Goa state on the west coast of India. Colva Beach spans about 2.5 km (1.6 mi) along a sandy coastline of approximately 25 km (16 mi) extending from Bogmalo in the north to Cabo de Rama in the south.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15395.053175026655!2d73.90313571721538!3d15.280699079141542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb418862d72a3%3A0xb5de1b202cad0935!2sColva%20Beach!5e0!3m2!1sen!2sin!4v1673502437612!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/Palolem-Beach.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-black text-center">PALOLEM BEACH</h5>
+                <p class="card-text text-black">
+                  Palolem Beach is situated in Canacona in southern Goa, India. The beach attracts many international tourists, mainly during the winter season between November and March. It is considered to be one of the region's most beautiful beaches.
+                  Palolem Beach is located within 2.5 kilometres of the market town of Chaudi in South Goa, and about 40 minutes from Margao, the district headquarters of South Goa.Other neighbouring beaches in South Goa include Agonda Beach and Patnem Beach.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7707.401999093981!2d74.01701977055434!3d15.009294108172748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbe4551d05b02bb%3A0x1e1bc67d4b0fbbf5!2sPalolem%20Beach!5e0!3m2!1sen!2sin!4v1673503780281!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/mandrem each.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-black text-center">MANDREM BEACH</h5>
+                <p class="card-text text-black">
+                  Mandrem is a coastal village famous as a tourist spot in Pernem taluka in North Goa district of Goa state in India. It is 21 km from the capital Panaji.
+                  It has two main beaches: Junas and Ashvem.The village has 11 wards.Mandrem or Mandre, originally named as Manjrey, was converted to Mandrem by the Portuguese. The "D" is pronounced as "J" in Portuguese.
+                  Mandrem Beach is a white sand beach with clear water. The beach of Mandrem lies between the twin beaches of Morjim and Arambol. This beach is a quiet and peaceful beach. The beauty of Mandrem Beach is especially during the High Tide time when the seawater rushes into the Mandrem Creek or River. This Mandrem creek moves parallel to the waterline. Mandrem has a small fishing community and occasionally one might see local fishermen hauling their catch from the sea. The beach has been notified as a turtle nesting site under CRZ 2011.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3841.5363863565467!2d73.7073585141649!3d15.669657354185498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeee85d4085d1%3A0xee6c10d759574ec0!2sMandrem%20Beach!5e0!3m2!1sen!2sin!4v1673503829809!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row mt-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card">
+              <img src="images/arambol beach.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-black text-center">ARAMBOL BEACH</h5>
+                <p class="card-text text-black">
+                  Arambol is a traditional fisherman village, located approximately a 90 minutes drive from Dabolim Airport (GOI) within the Pernem administrative region of North Goa, India. The beach attracts many international tourists, mainly during the winter season between November and March.[1]
+                  Arambol beach is rumored to be one of the most beautiful beaches in Goa, bordering Keri Beach to the north and Mandrem Beach to the south.[2] Located 43 km (27 mi) north of Goa's capital city of Panaji, Arambol has a population of around 5,300.Arambol's warmest month of the year is usually April with an average high of 34 °C. The sunniest months are January, February, April, May and December with around 10 hours of sunshine per day.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15365.145984725905!2d73.69451331261347!3d15.682938325927449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfee52ef136653%3A0xdd79ca2621f10716!2sArambol%20Beach!5e0!3m2!1sen!2sin!4v1673504064142!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="card" >
+              <img src="images/dona paula beach.jpg" class="card-img-top" alt="adanga beach">
+              <div class="card-body">
+                <h5 class="card-title text-center text-black">DONAPAULA BEACH</h5>
+                <p class="card-text text-black">
+                  Dona Paula is a village and tourist destination in the neighborhood of Panaji, Goa, India. It is today home to the National Institute of Oceanography and the International Centre Goa.
+                  Dona Paula is located on the sea stretch that spans from Panjim, Miramar and Dona Paula is an area frequented by tourists. During the tourist season, Dona Paula transforms into a crowded stretch which is otherwise a calm place during monsoons.[citation needed] A large part of the Hindi movie Ek Duuje Ke Liye was shot here, popularising the place further. An action sequence from Rohit Shetty's movie Singham was shot here
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1922.7778916405725!2d73.80414410782815!3d15.454508747315774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc72d9ed91c8f%3A0x82318f0bf21a7e38!2sDona%20Paula%20Beach!5e0!3m2!1sen!2sin!4v1673504122243!5m2!1sen!2sin" width="500" height="450" class="img-fluid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+        <!--BODY-->
+        <div class="container1">
+        <div class="row mt-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card">
+              <img src="images/chirala beach (about andhra).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="andhrabeaches.html">BEACHES IN ANDHRA PRADESH </a></h5>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card">
+              <img src="images/karnataka beach image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="karnatakabeaches.html" >BEACHES IN KARNATAKA </a></h5>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card">
+              <img src="images/kerala beach.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="keralabeaches.html" >BEACHES IN KERALA </a></h5>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card" >
+              <img src="images/maharshtra beach.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="maharashtrabeaches.html" >BEACHES IN MAHARASHTRA </a></h5>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card">
+              <img src="images/westbengal beach.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="tamilnadubeaches.html" >BEACHES IN TAMILNADU</a></h5>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+            <div class="card">
+              <img src="images/andaman beach.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="andaman&nicobarbeach.html" >BEACHES IN ANDAMAN&NICOBAR </a></h5>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="footer">
+        <div class="row">
+          <div class="col-3">
+        <div class="card1">
+          <div class="card-body text-light">
+            <ul >
+              <li class="text" style="padding: top 10px;" ><u>Andhra pradesh Resorts</u></li>
+              <li class="text"><u>Tamil nadu Resorts</u></li>
+              <li class="text"><u>Karnataka Resorts</u></li>
+              <li class="text"><u>Kerala Resorts</u></li>
+              <li class="text" ><u>Maharashtra Resorts</u></li>
+              <li class="text" ><u>Andaman&Nicobar Resorts</u></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card1">
+          <div class="card-body text-light">
+            <p class="text" style="margin-top: 15px;"><u>Instagram Id:</u><br>#kalyanreddy@149</p>
+            <p class="text"><u>Facebook Id:</u><br>KALYAN REDDY</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card2">
+          <div class="card-body text-light">
+            <img src="images/facebooklogo.png" class="image">
+            <img src="images/instagram logo.png" class="image">
+            <img src="images/whatsapp logo.png" class="image">
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <p class="text" align="center">copyright@2023</p>
+      </div>
+</body>
+</html>
